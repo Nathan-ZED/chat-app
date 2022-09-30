@@ -1,0 +1,18 @@
+@tailwind components;
+@tailwind utilities;
+
+.input-block {
+    @apply bg-blue-50 p-3 fixed bottom-0 left-0 right-0 flex flex-col align-middle justify-center
+}
+
+.input-block .wrapper {
+    @apply flex align-middle justify-center h-[70%]
+}
+
+.input-block input {
+    @apply w-full rounded-xl border-none border-2 mr-3 focus:outline-blue-600 px-2
+}
+
+.input-block button {
+    @apply border-none bg-blue-600 text-blue-100 font-bold text-xl p-2 rounded-xl my-auto
+}

@@ -1,0 +1,7 @@
+@tailwind components;
+@tailwind utilities;
+
+
+.chat-wrapper {
+    @apply h-[calc(100vh-12vh)] flex w-full flex-col justify-end pt-5
+}

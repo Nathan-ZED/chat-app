@@ -1,0 +1,11 @@
+@tailwind components;
+@tailwind utilities;
+
+
+.chat-bubble {
+    @apply p-4 bg-blue-600 h-auto rounded-lg mt-4
+}
+
+.chat-bubble span {
+    @apply text-blue-50 text-xl break-words
+}
